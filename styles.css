@@ -86,10 +86,30 @@
     z-index: -1;
     opacity: none;
 }
-.btn{
-    padding: 10px 35px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    transition: .6s ease;
+.mouse{
+    content: "";
+    position: none;
+    top: 0;
+    right: 0;
+    background: url("img/mouseclick.jpg") no-repeat center center/cover;
+    height: 37px;
+    width: 23px;
+    z-index: -1;
+    opacity: none;
 }
+#about{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+}
+
