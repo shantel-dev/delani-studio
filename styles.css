@@ -1,7 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+    background-color: white;
 }
 /* Home Section */
 #home{
@@ -105,11 +103,26 @@
     color: white;
     padding: 10px;
     font-size: small;
-    
 }
-.whatwedo{
-    text-align: center;
-    padding-top: 40px;
+.hide{
+    display: none;
 }
+#portfolio{
+    display: flex;
+    flex-direction: column;
+}
+.showcase{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+.showcase img{
+    width: 360px;
+    height: 240px;
+    margin: 10px;
+}
+
+
 
 
