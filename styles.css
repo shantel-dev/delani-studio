@@ -132,6 +132,12 @@ body {
     display: cover;
     padding: 10%;
 }
+.End{
+    color: black;
+    justify-content: center;
+    text-align: center;
+    font-size: small;
+}
 
 
 
