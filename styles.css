@@ -131,6 +131,18 @@ body {
     height: 683px;
     display: cover;
     padding: 10%;
+    
+}
+
+form#contact{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+input[type=text]{
+    background: transparent;
+}
+textarea[type=text]{
+    background: transparent;
 }
 .End{
     color: black;
