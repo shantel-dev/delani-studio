@@ -13,57 +13,15 @@ $(document).ready(function() {
     $("#productManagement").click(function(){
       $("#product-management-showing").toggle();
       $(".hide-product-management-icon").toggle();
-    })
-})
-$(document).ready(function(){
-    $("#work1").mouseover(function(){
-      $("#layout").show();
-    }).mouseout(function(){
-      $("#layout").hide();
     });
-  });
-  $(document).ready(function(){
-    $("#work2").mouseover(function(){
-      $("#layout2").show();
-    }).mouseout(function(){
-      $("#layout2").hide();
-    });
-  });
-  $(document).ready(function(){
-    $("#work3").mouseover(function(){
-      $("#layout3").show();
-    }).mouseout(function(){
-      $("#layout3").hide();
-    });
-  });
-  $(document).ready(function(){
-    $("#work4").mouseover(function(){
-      $("#layout4").show();
-    }).mouseout(function(){
-      $("#layout4").hide();
-    });
-  });
-  
-  $(document).ready(function(){
-    $("#work5").mouseover(function(){
-      $("#layout5").show();
-    }).mouseout(function(){
-      $("#layout5").hide();
-    });
-    $("#work6").mouseover(function(){
-      $("#layout6").show();
-    }).mouseout(function(){
-      $("#layout6").hide();
-    });
-    $("#work7").mouseover(function(){
-      $("#layout7").show();
-    }).mouseout(function(){
-      $("#layout7").hide();
-    });
-    $("#work8").mouseover(function(){
-      $("#layout8").show();
-    }).mouseout(function(){
-      $("#layout8").hide();
-    });
-  });
+
+    $(".hover").hover(function(){
+        $(this).animate({opacity:'1'});
+    },
+    function(){
+        $(this).animate({opacity:'0'});
+      })
+});
+
+    
 
